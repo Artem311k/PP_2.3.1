@@ -61,7 +61,7 @@ public class DataConfig {
         return dataSource;
     }
 
-    @Bean //TODO зачем нужен??
+    @Bean
     public PersistenceExceptionTranslationPostProcessor persistenceExceptionTranslationPostProcessor() {
         return new PersistenceExceptionTranslationPostProcessor();
     }
